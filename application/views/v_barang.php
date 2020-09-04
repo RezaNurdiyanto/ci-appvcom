@@ -37,8 +37,6 @@
 					<div class="card-header">
 						<h3 class="card-title">List Data Barang
 						<a href="<?php echo base_url('index.php/barang/export') ?>" class="btn btn-sm btn-success"><span class="fa fa-edit"></span>Export To Excel</a>
-						<a href="<?php echo base_url('index.php/barang/importexcel') ?>" class="btn btn-sm btn-danger"><span class="fa fa-edit"></span>Import From Excel</a>
-						<a href="<?php echo base_url('index.php/barang/exportpdf') ?>" class="btn btn-sm btn-success"><span class="fa fa-edit"></span>Export From pdf</a>
 						<div class="pull-right"><a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#largeModal"><span class="fa fa-plus"></span> Tambah Barang</a></div>
 						</h3>
 					</div>
