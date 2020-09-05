@@ -39,7 +39,7 @@ class retur extends CI_Controller{
 	function get_barang(){	
 		$kobar=$this->input->post('kode_brg');
 		$x['brg']=$this->m_barang->get_plu_barang($kobar);
-		$this->load->view('v_detail_barang_jual',$x);
+		$this->load->view('v_detail_barang_retur',$x);
 
 		$this->load->view('test',$x);
 	}
